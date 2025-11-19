@@ -1,0 +1,11 @@
+0.7
+2020.1
+May 27 2020
+20:09:33
+C:/Users/it admin/project_3/project_3.sim/sim_1/behav/xsim/glbl.v,1590624368,verilog,,,,glbl,,,,,,,,
+C:/Users/it admin/project_3/project_3.srcs/sim_1/new/Board mapper tb.v,1763290626,verilog,,,,tb_board_mapper,,,,,,,,
+C:/Users/it admin/project_3/project_3.srcs/sim_1/new/gamestate tb.v,1763301392,verilog,,,,tb_game_state,,,,,,,,
+C:/Users/it admin/project_3/project_3.srcs/sim_1/new/tb move validator.v,1763118258,verilog,,,,tb_move_validator,,,,,,,,
+C:/Users/it admin/project_3/project_3.srcs/sources_1/new/gamestate.v,1763438120,verilog,,C:/Users/it admin/project_3/project_3.srcs/sim_1/new/gamestate tb.v,,game_state,,,,,,,,
+C:/Users/it admin/project_3/project_3.srcs/sources_1/new/move validator.v,1763293263,verilog,,C:/Users/it admin/project_3/project_3.srcs/sim_1/new/tb move validator.v,,move_validator,,,,,,,,
+C:/Users/it admin/project_3/project_3.srcs/sources_1/new/ref code.v,1763115976,verilog,,C:/Users/it admin/project_3/project_3.srcs/sim_1/new/Board mapper tb.v,,board_mapper,,,,,,,,

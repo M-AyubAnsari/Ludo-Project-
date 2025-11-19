@@ -1,0 +1,12 @@
+0.7
+2020.1
+May 27 2020
+20:09:33
+C:/Users/M Abdullah Khan/ludo Proj/ludo Proj.sim/sim_1/behav/xsim/glbl.v,1590624368,verilog,,,,glbl,,,,,,,,
+C:/Users/M Abdullah Khan/ludo Proj/ludo Proj.srcs/sources_1/new/board occ agg.v,1763394416,verilog,,C:/Users/M Abdullah Khan/ludo Proj/ludo Proj.srcs/sources_1/new/board sync.v,,BoardOccAggregator,,,,,,,,
+C:/Users/M Abdullah Khan/ludo Proj/ludo Proj.srcs/sources_1/new/board sync.v,1763394374,verilog,,C:/Users/M Abdullah Khan/ludo Proj/ludo Proj.srcs/sources_1/new/dice display.v,,BoardSync,,,,,,,,
+C:/Users/M Abdullah Khan/ludo Proj/ludo Proj.srcs/sources_1/new/dice display.v,1763406546,verilog,,C:/Users/M Abdullah Khan/ludo Proj/ludo Proj.srcs/sources_1/new/ludo full.v,,DiceDisplay,,,,,,,,
+C:/Users/M Abdullah Khan/ludo Proj/ludo Proj.srcs/sources_1/new/ludo full.v,1763394447,verilog,,C:/Users/M Abdullah Khan/ludo Proj/ludo Proj.srcs/sources_1/new/ludo latch.v,,LudoFull,,,,,,,,
+C:/Users/M Abdullah Khan/ludo Proj/ludo Proj.srcs/sources_1/new/ludo latch.v,1763394515,verilog,,C:/Users/M Abdullah Khan/ludo Proj/ludo Proj.srcs/sources_1/new/ludoledtest.v,,sensor_latch,,,,,,,,
+C:/Users/M Abdullah Khan/ludo Proj/ludo Proj.srcs/sources_1/new/ludoledtest.v,1763394397,verilog,,C:/Users/M Abdullah Khan/ludo Proj/ludo Proj.srcs/sources_1/new/top ludo sensor.v,,LudoLedTest,,,,,,,,
+C:/Users/M Abdullah Khan/ludo Proj/ludo Proj.srcs/sources_1/new/top ludo sensor.v,1763394491,verilog,,,,TopLudoWithSensors,,,,,,,,

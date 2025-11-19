@@ -1,0 +1,15 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../Ludo Project.srcs/sources_1/new/clk_div.v" \
+"../../../../Ludo Project.srcs/sources_1/new/h_counter.v" \
+"../../../../Ludo Project.srcs/sources_1/new/pixel_gen_ludo.v" \
+"../../../../Ludo Project.srcs/sources_1/new/top_vga.v" \
+"../../../../Ludo Project.srcs/sources_1/new/v_counter.v" \
+"../../../../Ludo Project.srcs/sources_1/new/vga_sync.v" \
+"../../../../Ludo Project.srcs/sim_1/new/vga_controller_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

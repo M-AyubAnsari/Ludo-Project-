@@ -1,0 +1,12 @@
+0.7
+2020.1
+May 27 2020
+20:09:33
+C:/Users/subai/Ludo Project/Ludo Project.sim/sim_1/behav/xsim/glbl.v,1590624368,verilog,,,,glbl,,,,,,,,
+C:/Users/subai/Ludo Project/Ludo Project.srcs/sim_1/new/vga_controller_tb.v,1763301547,verilog,,,,vga_controller_tb,,,,,,,,
+C:/Users/subai/Ludo Project/Ludo Project.srcs/sources_1/new/clk_div.v,1763299908,verilog,,C:/Users/subai/Ludo Project/Ludo Project.srcs/sources_1/new/h_counter.v,,clk_div,,,,,,,,
+C:/Users/subai/Ludo Project/Ludo Project.srcs/sources_1/new/h_counter.v,1763299906,verilog,,C:/Users/subai/Ludo Project/Ludo Project.srcs/sources_1/new/pixel_gen_ludo.v,,h_counter,,,,,,,,
+C:/Users/subai/Ludo Project/Ludo Project.srcs/sources_1/new/pixel_gen_ludo.v,1763300895,verilog,,C:/Users/subai/Ludo Project/Ludo Project.srcs/sources_1/new/top_vga.v,,pixel_gen_ludo,,,,,,,,
+C:/Users/subai/Ludo Project/Ludo Project.srcs/sources_1/new/top_vga.v,1763300948,verilog,,C:/Users/subai/Ludo Project/Ludo Project.srcs/sources_1/new/v_counter.v,,top_vga,,,,,,,,
+C:/Users/subai/Ludo Project/Ludo Project.srcs/sources_1/new/v_counter.v,1763299904,verilog,,C:/Users/subai/Ludo Project/Ludo Project.srcs/sources_1/new/vga_sync.v,,v_counter,,,,,,,,
+C:/Users/subai/Ludo Project/Ludo Project.srcs/sources_1/new/vga_sync.v,1763300900,verilog,,C:/Users/subai/Ludo Project/Ludo Project.srcs/sim_1/new/vga_controller_tb.v,,vga_sync,,,,,,,,

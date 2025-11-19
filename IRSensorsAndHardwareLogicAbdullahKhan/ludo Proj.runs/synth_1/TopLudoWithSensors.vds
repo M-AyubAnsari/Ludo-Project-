@@ -1,0 +1,368 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Tue Nov 18 00:03:39 2025
+# Process ID: 10928
+# Current directory: C:/Users/M Abdullah Khan/ludo Proj/ludo Proj.runs/synth_1
+# Command line: vivado.exe -log TopLudoWithSensors.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source TopLudoWithSensors.tcl
+# Log file: C:/Users/M Abdullah Khan/ludo Proj/ludo Proj.runs/synth_1/TopLudoWithSensors.vds
+# Journal file: C:/Users/M Abdullah Khan/ludo Proj/ludo Proj.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source TopLudoWithSensors.tcl -notrace
+Command: synth_design -top TopLudoWithSensors -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 22464
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1024.809 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'TopLudoWithSensors' [C:/Users/M Abdullah Khan/ludo Proj/ludo Proj.srcs/sources_1/new/top ludo sensor.v:2]
+INFO: [Synth 8-6157] synthesizing module 'LudoFull' [C:/Users/M Abdullah Khan/ludo Proj/ludo Proj.srcs/sources_1/new/ludo full.v:2]
+	Parameter S_IDLE bound to: 0 - type: integer 
+	Parameter S_WAIT bound to: 1 - type: integer 
+	Parameter S_SELECT bound to: 2 - type: integer 
+	Parameter S_MOVE bound to: 3 - type: integer 
+	Parameter S_CAPTURE bound to: 4 - type: integer 
+	Parameter S_NEXT bound to: 5 - type: integer 
+	Parameter S_OVER bound to: 6 - type: integer 
+INFO: [Synth 8-226] default block is never used [C:/Users/M Abdullah Khan/ludo Proj/ludo Proj.srcs/sources_1/new/ludo full.v:95]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/M Abdullah Khan/ludo Proj/ludo Proj.srcs/sources_1/new/ludo full.v:114]
+INFO: [Synth 8-6155] done synthesizing module 'LudoFull' (1#1) [C:/Users/M Abdullah Khan/ludo Proj/ludo Proj.srcs/sources_1/new/ludo full.v:2]
+INFO: [Synth 8-6157] synthesizing module 'BoardOccAggregator' [C:/Users/M Abdullah Khan/ludo Proj/ludo Proj.srcs/sources_1/new/board occ agg.v:8]
+	Parameter INVERT_SENSOR bound to: 1 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'sensor_latch' [C:/Users/M Abdullah Khan/ludo Proj/ludo Proj.srcs/sources_1/new/ludo latch.v:6]
+	Parameter INVERT_SENSOR bound to: 1 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'sensor_latch' (2#1) [C:/Users/M Abdullah Khan/ludo Proj/ludo Proj.srcs/sources_1/new/ludo latch.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'BoardOccAggregator' (3#1) [C:/Users/M Abdullah Khan/ludo Proj/ludo Proj.srcs/sources_1/new/board occ agg.v:8]
+INFO: [Synth 8-6157] synthesizing module 'LudoLedTest' [C:/Users/M Abdullah Khan/ludo Proj/ludo Proj.srcs/sources_1/new/ludoledtest.v:2]
+INFO: [Synth 8-6157] synthesizing module 'BoardSync' [C:/Users/M Abdullah Khan/ludo Proj/ludo Proj.srcs/sources_1/new/board sync.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'BoardSync' (4#1) [C:/Users/M Abdullah Khan/ludo Proj/ludo Proj.srcs/sources_1/new/board sync.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'LudoLedTest' (5#1) [C:/Users/M Abdullah Khan/ludo Proj/ludo Proj.srcs/sources_1/new/ludoledtest.v:2]
+INFO: [Synth 8-6157] synthesizing module 'DiceDisplay' [C:/Users/M Abdullah Khan/ludo Proj/ludo Proj.srcs/sources_1/new/dice display.v:3]
+INFO: [Synth 8-226] default block is never used [C:/Users/M Abdullah Khan/ludo Proj/ludo Proj.srcs/sources_1/new/dice display.v:43]
+INFO: [Synth 8-6155] done synthesizing module 'DiceDisplay' (6#1) [C:/Users/M Abdullah Khan/ludo Proj/ludo Proj.srcs/sources_1/new/dice display.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'TopLudoWithSensors' (7#1) [C:/Users/M Abdullah Khan/ludo Proj/ludo Proj.srcs/sources_1/new/top ludo sensor.v:2]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1024.809 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1024.809 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1024.809 ; gain = 0.000
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.016 . Memory (MB): peak = 1024.809 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/M Abdullah Khan/ludo Proj/ludo Proj.srcs/constrs_1/new/test_16_sensors.xdc]
+Finished Parsing XDC File [C:/Users/M Abdullah Khan/ludo Proj/ludo Proj.srcs/constrs_1/new/test_16_sensors.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/M Abdullah Khan/ludo Proj/ludo Proj.srcs/constrs_1/new/test_16_sensors.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/TopLudoWithSensors_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/TopLudoWithSensors_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1044.113 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.009 . Memory (MB): peak = 1044.113 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 1044.113 ; gain = 19.305
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 1044.113 ; gain = 19.305
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 1044.113 ; gain = 19.305
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'LudoFull'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  S_IDLE |                              110 |                              000
+                  S_WAIT |                              010 |                              001
+                S_SELECT |                              101 |                              010
+                  S_MOVE |                              100 |                              011
+               S_CAPTURE |                              011 |                              100
+                  S_NEXT |                              001 |                              101
+                  S_OVER |                              000 |                              110
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'LudoFull'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 1044.113 ; gain = 19.305
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input    5 Bit       Adders := 1     
+	   2 Input    4 Bit       Adders := 1     
++---XORs : 
+	   4 Input      1 Bit         XORs := 1     
++---Registers : 
+	               27 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 113   
++---Muxes : 
+	   2 Input    7 Bit        Muxes := 2     
+	   7 Input    7 Bit        Muxes := 1     
+	   2 Input    5 Bit        Muxes := 73    
+	   6 Input    5 Bit        Muxes := 1     
+	   8 Input    5 Bit        Muxes := 4     
+	   2 Input    4 Bit        Muxes := 1     
+	   4 Input    4 Bit        Muxes := 1     
+	   8 Input    3 Bit        Muxes := 2     
+	   2 Input    3 Bit        Muxes := 11    
+	   7 Input    3 Bit        Muxes := 4     
+	   2 Input    1 Bit        Muxes := 12    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'game/dice_value_reg[3]__0/Q' [C:/Users/M Abdullah Khan/ludo Proj/ludo Proj.srcs/sources_1/new/ludo full.v:66]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/Users/M Abdullah Khan/ludo Proj/ludo Proj.srcs/sources_1/new/ludo full.v:66]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/M Abdullah Khan/ludo Proj/ludo Proj.srcs/sources_1/new/ludo full.v:66]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'game/dice_value_reg[2]__0/Q' [C:/Users/M Abdullah Khan/ludo Proj/ludo Proj.srcs/sources_1/new/ludo full.v:66]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/Users/M Abdullah Khan/ludo Proj/ludo Proj.srcs/sources_1/new/ludo full.v:66]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/M Abdullah Khan/ludo Proj/ludo Proj.srcs/sources_1/new/ludo full.v:66]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'game/dice_value_reg[1]__0/Q' [C:/Users/M Abdullah Khan/ludo Proj/ludo Proj.srcs/sources_1/new/ludo full.v:66]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/Users/M Abdullah Khan/ludo Proj/ludo Proj.srcs/sources_1/new/ludo full.v:66]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/M Abdullah Khan/ludo Proj/ludo Proj.srcs/sources_1/new/ludo full.v:66]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'game/dice_value_reg[0]__0/Q' [C:/Users/M Abdullah Khan/ludo Proj/ludo Proj.srcs/sources_1/new/ludo full.v:66]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/Users/M Abdullah Khan/ludo Proj/ludo Proj.srcs/sources_1/new/ludo full.v:66]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/M Abdullah Khan/ludo Proj/ludo Proj.srcs/sources_1/new/ludo full.v:66]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'game/player_turn_reg__0/Q' [C:/Users/M Abdullah Khan/ludo Proj/ludo Proj.srcs/sources_1/new/ludo full.v:65]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/Users/M Abdullah Khan/ludo Proj/ludo Proj.srcs/sources_1/new/ludo full.v:65]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/M Abdullah Khan/ludo Proj/ludo Proj.srcs/sources_1/new/ludo full.v:65]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'game/game_over_reg__0/Q' [C:/Users/M Abdullah Khan/ludo Proj/ludo Proj.srcs/sources_1/new/ludo full.v:69]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/Users/M Abdullah Khan/ludo Proj/ludo Proj.srcs/sources_1/new/ludo full.v:69]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/M Abdullah Khan/ludo Proj/ludo Proj.srcs/sources_1/new/ludo full.v:69]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'game/p1_pos_1_reg[2]__1/Q' [C:/Users/M Abdullah Khan/ludo Proj/ludo Proj.srcs/sources_1/new/ludo full.v:63]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/Users/M Abdullah Khan/ludo Proj/ludo Proj.srcs/sources_1/new/ludo full.v:63]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/M Abdullah Khan/ludo Proj/ludo Proj.srcs/sources_1/new/ludo full.v:63]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'game/p1_pos_1_reg[1]__1/Q' [C:/Users/M Abdullah Khan/ludo Proj/ludo Proj.srcs/sources_1/new/ludo full.v:63]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/Users/M Abdullah Khan/ludo Proj/ludo Proj.srcs/sources_1/new/ludo full.v:63]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/M Abdullah Khan/ludo Proj/ludo Proj.srcs/sources_1/new/ludo full.v:63]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'game/p1_pos_1_reg[0]__1/Q' [C:/Users/M Abdullah Khan/ludo Proj/ludo Proj.srcs/sources_1/new/ludo full.v:63]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/Users/M Abdullah Khan/ludo Proj/ludo Proj.srcs/sources_1/new/ludo full.v:63]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/M Abdullah Khan/ludo Proj/ludo Proj.srcs/sources_1/new/ludo full.v:63]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'game/p2_pos_0_reg[2]__1/Q' [C:/Users/M Abdullah Khan/ludo Proj/ludo Proj.srcs/sources_1/new/ludo full.v:64]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/Users/M Abdullah Khan/ludo Proj/ludo Proj.srcs/sources_1/new/ludo full.v:64]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/M Abdullah Khan/ludo Proj/ludo Proj.srcs/sources_1/new/ludo full.v:64]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'game/p2_pos_0_reg[1]__1/Q' [C:/Users/M Abdullah Khan/ludo Proj/ludo Proj.srcs/sources_1/new/ludo full.v:64]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/Users/M Abdullah Khan/ludo Proj/ludo Proj.srcs/sources_1/new/ludo full.v:64]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/M Abdullah Khan/ludo Proj/ludo Proj.srcs/sources_1/new/ludo full.v:64]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'game/p2_pos_1_reg[2]__1/Q' [C:/Users/M Abdullah Khan/ludo Proj/ludo Proj.srcs/sources_1/new/ludo full.v:64]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/Users/M Abdullah Khan/ludo Proj/ludo Proj.srcs/sources_1/new/ludo full.v:64]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/M Abdullah Khan/ludo Proj/ludo Proj.srcs/sources_1/new/ludo full.v:64]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'game/p2_pos_1_reg[0]__1/Q' [C:/Users/M Abdullah Khan/ludo Proj/ludo Proj.srcs/sources_1/new/ludo full.v:64]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/Users/M Abdullah Khan/ludo Proj/ludo Proj.srcs/sources_1/new/ludo full.v:64]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/M Abdullah Khan/ludo Proj/ludo Proj.srcs/sources_1/new/ludo full.v:64]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'game/p1_pos_0_reg[3]__1/Q' [C:/Users/M Abdullah Khan/ludo Proj/ludo Proj.srcs/sources_1/new/ludo full.v:63]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/Users/M Abdullah Khan/ludo Proj/ludo Proj.srcs/sources_1/new/ludo full.v:63]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/M Abdullah Khan/ludo Proj/ludo Proj.srcs/sources_1/new/ludo full.v:63]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'game/lfsr_reg[6]__0/Q' [C:/Users/M Abdullah Khan/ludo Proj/ludo Proj.srcs/sources_1/new/ludo full.v:72]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/Users/M Abdullah Khan/ludo Proj/ludo Proj.srcs/sources_1/new/ludo full.v:72]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/M Abdullah Khan/ludo Proj/ludo Proj.srcs/sources_1/new/ludo full.v:72]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'game/lfsr_reg[4]__0/Q' [C:/Users/M Abdullah Khan/ludo Proj/ludo Proj.srcs/sources_1/new/ludo full.v:72]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/Users/M Abdullah Khan/ludo Proj/ludo Proj.srcs/sources_1/new/ludo full.v:72]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/M Abdullah Khan/ludo Proj/ludo Proj.srcs/sources_1/new/ludo full.v:72]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'game/lfsr_reg[3]__0/Q' [C:/Users/M Abdullah Khan/ludo Proj/ludo Proj.srcs/sources_1/new/ludo full.v:72]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/Users/M Abdullah Khan/ludo Proj/ludo Proj.srcs/sources_1/new/ludo full.v:72]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/M Abdullah Khan/ludo Proj/ludo Proj.srcs/sources_1/new/ludo full.v:72]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'game/lfsr_reg[1]__0/Q' [C:/Users/M Abdullah Khan/ludo Proj/ludo Proj.srcs/sources_1/new/ludo full.v:72]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/Users/M Abdullah Khan/ludo Proj/ludo Proj.srcs/sources_1/new/ludo full.v:72]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/M Abdullah Khan/ludo Proj/ludo Proj.srcs/sources_1/new/ludo full.v:72]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'game/steps_left_reg[3]__1/Q' [C:/Users/M Abdullah Khan/ludo Proj/ludo Proj.srcs/sources_1/new/ludo full.v:67]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/Users/M Abdullah Khan/ludo Proj/ludo Proj.srcs/sources_1/new/ludo full.v:67]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/M Abdullah Khan/ludo Proj/ludo Proj.srcs/sources_1/new/ludo full.v:67]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'game/steps_left_reg[2]__1/Q' [C:/Users/M Abdullah Khan/ludo Proj/ludo Proj.srcs/sources_1/new/ludo full.v:67]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/Users/M Abdullah Khan/ludo Proj/ludo Proj.srcs/sources_1/new/ludo full.v:67]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/M Abdullah Khan/ludo Proj/ludo Proj.srcs/sources_1/new/ludo full.v:67]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'game/steps_left_reg[1]__1/Q' [C:/Users/M Abdullah Khan/ludo Proj/ludo Proj.srcs/sources_1/new/ludo full.v:67]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/Users/M Abdullah Khan/ludo Proj/ludo Proj.srcs/sources_1/new/ludo full.v:67]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/M Abdullah Khan/ludo Proj/ludo Proj.srcs/sources_1/new/ludo full.v:67]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'game/steps_left_reg[0]__1/Q' [C:/Users/M Abdullah Khan/ludo Proj/ludo Proj.srcs/sources_1/new/ludo full.v:67]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/Users/M Abdullah Khan/ludo Proj/ludo Proj.srcs/sources_1/new/ludo full.v:67]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/M Abdullah Khan/ludo Proj/ludo Proj.srcs/sources_1/new/ludo full.v:67]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'game/selected_piece_reg__0/Q' [C:/Users/M Abdullah Khan/ludo Proj/ludo Proj.srcs/sources_1/new/ludo full.v:68]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/Users/M Abdullah Khan/ludo Proj/ludo Proj.srcs/sources_1/new/ludo full.v:68]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/M Abdullah Khan/ludo Proj/ludo Proj.srcs/sources_1/new/ludo full.v:68]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'game/p1_pos_1_reg[4]__1/Q' [C:/Users/M Abdullah Khan/ludo Proj/ludo Proj.srcs/sources_1/new/ludo full.v:63]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'VCC' [C:/Users/M Abdullah Khan/ludo Proj/ludo Proj.srcs/sources_1/new/ludo full.v:63]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/M Abdullah Khan/ludo Proj/ludo Proj.srcs/sources_1/new/ludo full.v:63]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'game/p1_pos_1_reg[3]__1/Q' [C:/Users/M Abdullah Khan/ludo Proj/ludo Proj.srcs/sources_1/new/ludo full.v:63]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'VCC' [C:/Users/M Abdullah Khan/ludo Proj/ludo Proj.srcs/sources_1/new/ludo full.v:63]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/M Abdullah Khan/ludo Proj/ludo Proj.srcs/sources_1/new/ludo full.v:63]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'game/p2_pos_0_reg[4]__1/Q' [C:/Users/M Abdullah Khan/ludo Proj/ludo Proj.srcs/sources_1/new/ludo full.v:64]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'VCC' [C:/Users/M Abdullah Khan/ludo Proj/ludo Proj.srcs/sources_1/new/ludo full.v:64]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/M Abdullah Khan/ludo Proj/ludo Proj.srcs/sources_1/new/ludo full.v:64]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'game/p2_pos_0_reg[3]__1/Q' [C:/Users/M Abdullah Khan/ludo Proj/ludo Proj.srcs/sources_1/new/ludo full.v:64]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'VCC' [C:/Users/M Abdullah Khan/ludo Proj/ludo Proj.srcs/sources_1/new/ludo full.v:64]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/M Abdullah Khan/ludo Proj/ludo Proj.srcs/sources_1/new/ludo full.v:64]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'game/p2_pos_0_reg[0]__1/Q' [C:/Users/M Abdullah Khan/ludo Proj/ludo Proj.srcs/sources_1/new/ludo full.v:64]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'VCC' [C:/Users/M Abdullah Khan/ludo Proj/ludo Proj.srcs/sources_1/new/ludo full.v:64]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/M Abdullah Khan/ludo Proj/ludo Proj.srcs/sources_1/new/ludo full.v:64]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'game/p2_pos_1_reg[4]__1/Q' [C:/Users/M Abdullah Khan/ludo Proj/ludo Proj.srcs/sources_1/new/ludo full.v:64]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'VCC' [C:/Users/M Abdullah Khan/ludo Proj/ludo Proj.srcs/sources_1/new/ludo full.v:64]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/M Abdullah Khan/ludo Proj/ludo Proj.srcs/sources_1/new/ludo full.v:64]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'game/p2_pos_1_reg[3]__1/Q' [C:/Users/M Abdullah Khan/ludo Proj/ludo Proj.srcs/sources_1/new/ludo full.v:64]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'VCC' [C:/Users/M Abdullah Khan/ludo Proj/ludo Proj.srcs/sources_1/new/ludo full.v:64]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/M Abdullah Khan/ludo Proj/ludo Proj.srcs/sources_1/new/ludo full.v:64]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'game/p2_pos_1_reg[1]__1/Q' [C:/Users/M Abdullah Khan/ludo Proj/ludo Proj.srcs/sources_1/new/ludo full.v:64]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'VCC' [C:/Users/M Abdullah Khan/ludo Proj/ludo Proj.srcs/sources_1/new/ludo full.v:64]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/M Abdullah Khan/ludo Proj/ludo Proj.srcs/sources_1/new/ludo full.v:64]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'game/p1_pos_0_reg[4]__1/Q' [C:/Users/M Abdullah Khan/ludo Proj/ludo Proj.srcs/sources_1/new/ludo full.v:63]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'VCC' [C:/Users/M Abdullah Khan/ludo Proj/ludo Proj.srcs/sources_1/new/ludo full.v:63]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/M Abdullah Khan/ludo Proj/ludo Proj.srcs/sources_1/new/ludo full.v:63]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'game/p1_pos_0_reg[2]__1/Q' [C:/Users/M Abdullah Khan/ludo Proj/ludo Proj.srcs/sources_1/new/ludo full.v:63]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'VCC' [C:/Users/M Abdullah Khan/ludo Proj/ludo Proj.srcs/sources_1/new/ludo full.v:63]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/M Abdullah Khan/ludo Proj/ludo Proj.srcs/sources_1/new/ludo full.v:63]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'game/p1_pos_0_reg[1]__1/Q' [C:/Users/M Abdullah Khan/ludo Proj/ludo Proj.srcs/sources_1/new/ludo full.v:63]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'VCC' [C:/Users/M Abdullah Khan/ludo Proj/ludo Proj.srcs/sources_1/new/ludo full.v:63]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/M Abdullah Khan/ludo Proj/ludo Proj.srcs/sources_1/new/ludo full.v:63]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'game/p1_pos_0_reg[0]__1/Q' [C:/Users/M Abdullah Khan/ludo Proj/ludo Proj.srcs/sources_1/new/ludo full.v:63]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'VCC' [C:/Users/M Abdullah Khan/ludo Proj/ludo Proj.srcs/sources_1/new/ludo full.v:63]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/M Abdullah Khan/ludo Proj/ludo Proj.srcs/sources_1/new/ludo full.v:63]
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 1044.113 ; gain = 19.305
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:22 ; elapsed = 00:00:24 . Memory (MB): peak = 1044.113 ; gain = 19.305
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:22 ; elapsed = 00:00:24 . Memory (MB): peak = 1044.113 ; gain = 19.305
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:22 ; elapsed = 00:00:24 . Memory (MB): peak = 1044.113 ; gain = 19.305
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:26 ; elapsed = 00:00:28 . Memory (MB): peak = 1044.113 ; gain = 19.305
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:26 ; elapsed = 00:00:28 . Memory (MB): peak = 1044.113 ; gain = 19.305
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:26 ; elapsed = 00:00:28 . Memory (MB): peak = 1044.113 ; gain = 19.305
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:26 ; elapsed = 00:00:28 . Memory (MB): peak = 1044.113 ; gain = 19.305
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:26 ; elapsed = 00:00:28 . Memory (MB): peak = 1044.113 ; gain = 19.305
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:26 ; elapsed = 00:00:28 . Memory (MB): peak = 1044.113 ; gain = 19.305
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |     5|
+|3     |LUT1   |     1|
+|4     |LUT2   |     5|
+|5     |FDCE   |    17|
+|6     |IBUF   |     2|
+|7     |OBUF   |    27|
++------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:26 ; elapsed = 00:00:28 . Memory (MB): peak = 1044.113 ; gain = 19.305
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 105 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:18 ; elapsed = 00:00:25 . Memory (MB): peak = 1044.113 ; gain = 0.000
+Synthesis Optimization Complete : Time (s): cpu = 00:00:26 ; elapsed = 00:00:28 . Memory (MB): peak = 1044.113 ; gain = 19.305
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1054.500 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 5 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1055.492 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+34 Infos, 0 Warnings, 105 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:32 ; elapsed = 00:00:35 . Memory (MB): peak = 1055.492 ; gain = 30.684
+INFO: [Common 17-1381] The checkpoint 'C:/Users/M Abdullah Khan/ludo Proj/ludo Proj.runs/synth_1/TopLudoWithSensors.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file TopLudoWithSensors_utilization_synth.rpt -pb TopLudoWithSensors_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Tue Nov 18 00:04:20 2025...

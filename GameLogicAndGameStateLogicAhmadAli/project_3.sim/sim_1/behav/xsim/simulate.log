@@ -1,0 +1,20 @@
+Vivado Simulator 2020.1
+Time resolution is 1 ps
+Test 1: Red Player moves to position 1
+Test 2: Green Player moves to position 10
+Test 3: Red Player moves to position 10 (kicking Green's goti back home)
+  FAIL: Goti beaten condition not triggered.
+
+Test 4: Red Player moves to position 23 (goti home)
+  PASS: Red's goti has reached home.
+
+Test 5: Red Player wins by moving both gotis to position 23
+  PASS: Red wins the game by reaching position 23 with both gotis.
+
+Test 6: Green Player reaches position 23 (goti home)
+  FAIL: Goti home condition not triggered.
+
+Test 7: Green wins by moving both gotis to position 23
+  PASS: Green wins the game.
+
+$finish called at time : 115 ns : File "C:/Users/it admin/project_3/project_3.srcs/sim_1/new/gamestate tb.v" Line 480
